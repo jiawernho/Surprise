@@ -10,7 +10,7 @@ function generateMeme() {
 
     // Load meme template
     const img = new Image();
-    img.src = "meme_template.jpg"; // Replace with your own meme image
+    img.src = "https://raw.githubusercontent.com/jiawernho/Surprise/refs/heads/main/meme_template.jpg"; // Replace with your own meme image
 
     img.onload = function () {
         // Set canvas size to match image
